@@ -1,0 +1,9 @@
+[19-Mar-2021 15:10:26 UTC] PHP Warning:  include(../../constants.php): failed to open stream: No such file or directory in /home/penzias/secure_html/ETD-Search/src/admin_access_action.php on line 3
+[19-Mar-2021 15:10:26 UTC] PHP Warning:  include(): Failed opening '../../constants.php' for inclusion (include_path='.:/usr/local/lib/php') in /home/penzias/secure_html/ETD-Search/src/admin_access_action.php on line 3
+[19-Mar-2021 15:10:26 UTC] PHP Warning:  Use of undefined constant ADMIN_PASSWORD - assumed 'ADMIN_PASSWORD' (this will throw an Error in a future version of PHP) in /home/penzias/secure_html/ETD-Search/src/admin_access_action.php on line 7
+[19-Mar-2021 15:11:11 UTC] PHP Warning:  include(../../constants.php): failed to open stream: No such file or directory in /home/penzias/secure_html/ETD-Search/src/admin_access_action.php on line 3
+[19-Mar-2021 15:11:11 UTC] PHP Warning:  include(): Failed opening '../../constants.php' for inclusion (include_path='.:/usr/local/lib/php') in /home/penzias/secure_html/ETD-Search/src/admin_access_action.php on line 3
+[19-Mar-2021 15:11:11 UTC] PHP Warning:  Use of undefined constant ADMIN_PASSWORD - assumed 'ADMIN_PASSWORD' (this will throw an Error in a future version of PHP) in /home/penzias/secure_html/ETD-Search/src/admin_access_action.php on line 7
+[19-Mar-2021 15:11:28 UTC] PHP Warning:  include(../../constants.php): failed to open stream: No such file or directory in /home/penzias/secure_html/ETD-Search/src/admin_access_action.php on line 7
+[19-Mar-2021 15:11:28 UTC] PHP Warning:  include(): Failed opening '../../constants.php' for inclusion (include_path='.:/usr/local/lib/php') in /home/penzias/secure_html/ETD-Search/src/admin_access_action.php on line 7
+[19-Mar-2021 15:11:28 UTC] PHP Warning:  Use of undefined constant ADMIN_PASSWORD - assumed 'ADMIN_PASSWORD' (this will throw an Error in a future version of PHP) in /home/penzias/secure_html/ETD-Search/src/admin_access_action.php on line 11

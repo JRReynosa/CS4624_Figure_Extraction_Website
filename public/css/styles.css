@@ -1,0 +1,531 @@
+html,
+body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links>a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+form.search input[type=text] {
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid gray;
+    float: left;
+    width: 69%;
+    background: #f1f1f1;
+    border-radius: 25px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+button.search {
+    float: left;
+    width: 13%;
+    padding: 13px;
+    margin-right: 5px;
+    background: #00BFFF;
+    font-size: 18px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button.search:hover {
+    background: #045292;
+}
+
+button.advanced-search-button {
+    float: left;
+    width: 40%;
+    padding: 14px;
+    background: #00BFFF;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+button.advanced-search-button:hover {
+    background: #045292;
+}
+
+button.save-history {
+    float: left;
+    width: 40%;
+    padding: 13px;
+    margin-right: 5px;
+    background: #00BFFF;
+    font-size: 18px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button.save-history:hover {
+    background: #045292;
+}
+
+button.save-history::before {
+    content: "Save Search History";
+}
+
+button.saved-history {
+    float: left;
+    width: 40%;
+    padding: 13px;
+    background: #73EC21;
+    font-size: 18px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+button.saved-history::before {
+    content: "Search History Saved";
+}
+
+button.saved-history:hover {
+    background: rgb(221, 85, 85);
+    color: white;
+}
+
+button.saved-history:hover::before {
+    content: "Remove From History";
+}
+
+button.save {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background: #00BFFF;
+    font-size: 18px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+button.save::before {
+    content: "Save";
+}
+
+button.save:hover {
+    background: #045292;
+}
+
+button.saved {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background: #73EC21;
+    font-size: 18px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+button.saved::before {
+    content: "Saved";
+}
+
+button.saved:hover {
+    background: rgb(221, 85, 85);
+    color: white;
+}
+
+button.saved:hover::before {
+    content: "Unsave";
+}
+
+button.like {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background: #00BFFF;
+    font-size: 18px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+button.like::before {
+    content: "Like";
+}
+
+button.like:hover {
+    background: #045292;
+}
+
+button.liked {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background: #73EC21;
+    font-size: 18px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+button.liked::before {
+    content: "Liked";
+}
+
+button.liked:hover {
+    background: rgb(221, 85, 85);
+    color: white;
+}
+
+button.liked:hover::before {
+    content: "Unlike";
+}
+
+button.show-authors {
+    margin-right: 10px;
+    width: 50%;
+    padding: 10px;
+    background: #00BFFF;
+    font-size: 15px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button.show-authors:hover {
+    background: #045292;
+}
+
+button.download {
+    float: left;
+    margin-right: 10px;
+    width: 15%;
+    padding: 10px;
+    background: #00BFFF;
+    font-size: 18px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button.download:hover {
+    background: #045292;
+}
+
+button.download2 {
+    margin-right: 10px;
+    width: 15%;
+    padding: 10px;
+    background: #00BFFF;
+    font-size: 18px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button.download2:hover {
+    background: #045292;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li.menu {
+    float: left;
+}
+
+li.menu a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.menu a:hover:not(.active) {
+    background-color: rgb(44, 42, 42);
+    color: white;
+}
+
+form.login input[type=text],
+form.login input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+button.login {
+    width: 50%;
+    padding: 14px;
+    background: #00BFFF;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+button.login:hover {
+    background: #045292;
+}
+
+.container {
+    width: 25%;
+}
+
+.dashboard {
+    border: 3px solid #857e7e;
+}
+
+p.error {
+    color: red;
+}
+
+.attribute {
+    padding-bottom: 50px;
+}
+
+label.attribute-label {
+    float: left;
+}
+
+input.attribute-input {
+    float: right;
+}
+
+input.author-entries {
+    float: right;
+}
+
+.results {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.results-container {
+    width: 70%;
+    float: left;
+    margin-left: 5%;
+}
+
+.faceted-search-container {
+    width: 20%;
+    float: left;
+    display: block;
+}
+
+ul.results {
+    list-style-type: p;
+    padding: 0;
+    margin: 0;
+}
+
+a.results {
+    font-size: 20px;
+}
+
+.author {
+    color: rgb(56, 88, 8);
+    text-decoration: underline;
+}
+
+p.num-results {
+    font-size: 30px;
+}
+
+.pagination {
+    display: inline-block;
+    width: 100%;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #00BFFF;
+    color: white;
+    border: 1px solid#00BFFF;
+}
+
+mark.highlight {
+    background-color: yellow;
+    color: black;
+}
+
+button.dissertation-title {
+    font-size: 20px;
+    color: #00afe9;
+    background: none;
+    border: none;
+}
+
+p.likes {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.history {
+    border-bottom: 1px solid grey;
+    margin-left: 50px;
+}
+
+.history:hover {
+    background-color: #a2a5a7;
+}
+
+input.delete {
+    float: left;
+}
+
+button.add-tag {
+    background: #00BFFF;
+    border-radius: 25px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+button.add-tag:hover {
+    background: #045292;
+}
+
+button.user-tag {
+    background: #00BFFF;
+    border: 1px solid gray;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right-width: 0px;
+    cursor: pointer;
+}
+
+button.user-tag:hover {
+    background: #045292;
+}
+
+button.remove-tag {
+    background: #00BFFF;
+    border: 1px solid gray;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left-width: 0px;
+    cursor: pointer;
+}
+
+button.remove-tag:hover {
+    background: rgb(221, 85, 85);
+}
+
+button.tag {
+    background: #00BFFF;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button.tag:hover {
+    background: #045292;
+}
+
+.tags {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+form.tag {
+    float: left;
+}
+
+button.add-to-list {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    padding: 10px;
+    background: #00BFFF;
+    font-size: 18px;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button.add-to-list::before {
+    content: "\2795";
+}
+
+button.add-to-list:hover {
+    background: #045292;
+}
+
+ul.authors-list {
+    list-style-type: none;
+}
+
+.figure-slides {
+    display: none;
+}
+
+.table-slides {
+    display: none;
+}
