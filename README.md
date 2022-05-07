@@ -10,7 +10,7 @@ If on Linux continue, else if on Windows, set up WSL and install Ubuntu
 
 <br />
 
-First, clone this GitHub directory to your /var/www/html/ folder:
+First, navigate to your /var/www/html/ folder and create a directory named "figures" and then clone this GitHub repository into the new "figures" directory.
 ```bash
 git clone https://github.com/JRReynosa/CS4624_Figure_Extraction_Website figures
 ```
