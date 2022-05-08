@@ -66,10 +66,19 @@ This provides a path to all already processed Elasticsearch entries.
 
 <br />
 
-Optionally, to use the upload feature of the website one needs to install Java SDK and sbt, it is suggested to use SDKMAN! 
-1. https://sdkman.io/install
-2. https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html
-
+Optionally, to use the upload feature of the website one needs to install:
+1. Java SDK and SBT <br />
+  https://sdkman.io/install <br />
+  https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html <br />
+2. Python Libraries ndjson and elasticsearch <br />
+https://pypi.org/project/ndjson/ <br />
+https://pypi.org/project/elasticsearch/ <br />
+```python
+pip install ndjson
+```
+```python
+pip install elasticsearch
+```
 
 
 ## Using the website
