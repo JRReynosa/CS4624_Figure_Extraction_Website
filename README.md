@@ -90,3 +90,5 @@ command, access the website through http://127.0.0.1:8000/ or http://localhost:8
 
 Before entering the website, you may need to enter the admin password: 313ctr1c1+y
 
+## Contact
+For further help and questions contact: <jonathanreynosa@vt.edu>
